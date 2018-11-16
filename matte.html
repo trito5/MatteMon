@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MatteMon</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div class="container bgColor">
+        <div class="row">
+            <div class="col-md-12 jumbotronBg">
+                <h1>MatteMon</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 topMargin">
+                <h2 id="level">Level 1</h2>
+                <p>Lös de 10 uppgifterna för att få en PokeMon och levla upp</p>
+            </div>
+        </div>
+
+        <div class="row leftMargin">
+            <div class="col-md-6">
+
+
+                <table>
+                    <tr class="color">
+                        <td id="one">1 + 3 =</td>
+                        <td><input type="number" class="form-control"></td>
+                        <td class="result"></td>
+                    </tr>
+                    <tr class="color">
+                        <td id="two">1 + 3 =</td>
+                        <td><input type="number" class="form-control"></td>
+                        <td class="result"></td>
+                    </tr>
+                    <tr class="color">
+                        <td id="three">1 + 3 =</td>
+                        <td><input type="number" class="form-control"></td>
+                        <td class="result"></td>
+                    </tr>
+                    <tr class="color">
+                        <td id="four">1 + 3 =</td>
+                        <td><input type="number" class="form-control"></td>
+                        <td class="result"></td>
+                    </tr>
+                    <tr class="color">
+                        <td id="five">1 + 3 =</td>
+                        <td><input type="number" class="form-control"></td>
+                        <td class="result"></td>
+                    </tr>
+                    <tr class="color">
+                        <td id="six">1 + 3 =</td>
+                        <td><input type="number" class="form-control"></td>
+                        <td class="result"></td>
+                    </tr>
+
+                    <tr class="color">
+                        <td id="seven">1 + 3 =</td>
+                        <td><input type="number" class="form-control"></td>
+                        <td class="result"></td>
+                    </tr>
+                    <tr class="color">
+                        <td id="eigth">1 + 3 =</td>
+                        <td><input type="number" class="form-control"></td>
+                        <td class="result"></td>
+                    </tr>
+                    <tr class="color">
+                        <td id="nine">1 + 3 =</td>
+                        <td><input type="number" class="form-control"></td>
+                        <td class="result"></td>
+                    </tr>
+                    <tr class="color">
+                        <td id="ten">1 + 3 =</td>
+                        <td><input type="number" class="form-control"></td>
+                        <td class="result"></td>
+                    </tr>
+                    <tr class="answerButton">
+                        <td>&nbsp;</td>
+                        <td class="answerButton">
+                            <button type="button" class="btn btn-success" id="svara" onclick="checkAnswers()">Svara</button>
+                        </td>
+                    </tr>
+                </table>
+
+
+
+            </div>
+            <div class="col-md6">
+
+
+
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" id="pokemonbild" src="img/pokemon.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title" id="pokemonrubrik">Din Pokemon väntar</h5>
+                        <p class="card-text" id="pokemontext">Svara på alla frågorna för att se vilken Pokemon du får.</p>
+                        <a href="#" class="btn btn-success" id="nextLevel" onclick="restart()">Spela</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="matte.js">
+
+    </script>
+
+</body>
+
+</html>

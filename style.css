@@ -1,0 +1,61 @@
+.jumbotronBg {
+ background-color: rgb(30, 51, 68);
+ padding: 20px;
+}
+
+.overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(255, 204, 255, 0.3);
+   }
+
+   .topMargin {
+       margin-top: 20px;
+       margin-bottom: 20px;
+   }
+
+   .leftMargin {
+       margin-left: 50px;
+   }
+
+   .bgColor {
+       background-color:rgb(228, 237, 253); 
+   }
+   
+   body {
+       background-color: #F0F0F0;
+   }
+
+   h1 {
+       color: white;
+   }
+
+   input[type=number]{
+    width:100px;
+
+    }
+
+    td {
+       padding-left: 15px;
+       
+    }
+
+    .answerButton {
+       
+        padding-top: 15px;
+        padding-bottom: 20px;
+        text-align: right;
+    }
+
+    .result {
+        padding-right: 10px;
+    }
+
+   .thumb {
+       padding: 1px;;
+   }
+
+   
